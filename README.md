@@ -19,7 +19,9 @@ InSAR_Stack is an under-developing set of scripts to prepare for moving PySAR to
 In a higher level user needs to write scripts to use insarStack.py for writing HDF5 files. In case of one plateform and one single track with multiple datasets for observations, quality and geometry processed with ISCE software, I have included a script "loadData.py". 
 
 %%%%%%%%%%%%%%%%%
+
 NOTE: I have included a simple reader which uses gdal for reading the InSAR data. Therefore we assume that the data are readable by gdal.
+
 %%%%%%%%%%%%%%%%%
 
 Example 1:
