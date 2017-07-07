@@ -57,7 +57,7 @@ Example 4:
 
 loading a stack of
 	observations:
-                a) unwrapped interferograms
+               	a) unwrapped interferograms
                 b) estimated ionospheric phase
 	quality:
                 c) coherence of interferograms
@@ -75,5 +75,7 @@ loading a stack of
 Note: with --file_list any 2D dataset can be stored in the HDF5 file. The full path to the exact file should be given. Since the data can be a band in a multi-band data file, then the band number should be specified with option -b
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+See invert.py for examples in which one can invert a network of observations 
 
 
