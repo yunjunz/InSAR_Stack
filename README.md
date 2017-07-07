@@ -79,6 +79,16 @@ Note: with --file_list any 2D dataset can be stored in the HDF5 file. The full p
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-See invert.py for examples in which one can invert a network of observations 
+See invert.py for examples in which one can invert a network of observations. For example if one wants to invert a network of unwrapped interferograms:
+
+invert.py -i pairs.h5 -t timeseries_iono_weighted.h5 -o unwrapped-phase -w 0.2360571
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TODO List:
+
+Among many tasks on my to do list, adding attributes to the insarStack has a high priority. 
+
+
 
 
